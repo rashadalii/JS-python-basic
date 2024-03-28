@@ -53,17 +53,41 @@
 
 
 
-binary = "1011001101"
+# binary = "1011001101"
 
-def convertBinaryToDecimal(binary):
-    sum = 0
-    power = 0
+# def convertBinaryToDecimal(binary):
+#     sum = 0
+#     power = 0
 
-    for i in range(len(binary) - 1, -1, -1):
-        if int(binary[i]) != 0:
-            sum += int(binary[i]) * (2 ** power)
-        power += 1
+#     for i in range(len(binary) - 1, -1, -1):
+#         if int(binary[i]) != 0:
+#             sum += int(binary[i]) * (2 ** power)
+#         power += 1
 
-    print("Result:", sum)
+#     print("Result:", sum)
 
-convertBinaryToDecimal(binary)
+# convertBinaryToDecimal(binary)
+
+# text = "Hal hazirda javascript dili oyrenirem "
+# letter = input("Herfi daxil edin: ")
+
+# def find(letter):
+#     count = 0
+#     for char in text:
+#         if char.lower() == letter.lower():
+#             count += 1
+#     return count
+
+# result = find(letter)
+# print("Herf sayisi:", result)
+
+
+# def reversed_string(s):
+#     return s[::-1]
+
+# name = "radar"
+# result = reversed_string(name)
+# print(result)
+
+# if result == name:
+#     print("Name is palindrome")

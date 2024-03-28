@@ -1,4 +1,4 @@
-
+// Examples using if else statement,loops,methods(function) and Array
 
 // let count = 0;
 // while (count<=10) {
@@ -135,7 +135,7 @@
 // function reverse(binary){
 //     let reversedBinary ="";
 //     for(let i = binary.length-1;i>=0;i--){
-//         reversedBinary+=binary.charAt(i);
+//         reversedBinary+=binary[i];
 //     }
 //     return reversedBinary;
 // }
@@ -158,15 +158,89 @@
 //     console.log("Result : " +sum);
 // }
 
-// convertBinaryToDecimal(binary);
+// // convertBinaryToDecimal(binary);
 
-let count =0;
+// let count =0;
 
-while (count<=10) {
-    count++;
-    if(count==8){
-        continue;
-    }
-    console.log(count);
+// while (count<=10) {
+//     count++;
+//     if(count==8){
+//         continue;
+//     }
+//     console.log(count);
     
-}
+// }
+
+
+// let num = 10;
+// let temp = num;
+// let reverseNum = 0;
+
+// while (temp > 0) {
+//     let digit = temp % 10;
+//     reverseNum = reverseNum * 10 + digit;
+//     temp = Math.floor(temp / 10);
+// }
+
+// if (num === reverseNum) {
+//     console.log(num + " is a palindrome.");
+// } else {
+//     console.log(num + " is not a palindrome.");
+// }
+
+
+
+// let name = "radar";
+
+// function reversedString(str) {
+//     return str.split('').reverse().join('');
+// }
+
+// let result = reversedString(name);
+// console.log(result);
+
+// if (result === name) {
+//     console.log("name is a palindrome");
+// }
+
+
+
+// let name="radar"
+// let result=reversedString(name)
+// console.log(result);
+// if(result===name){
+//     console.log("name is palindrome");
+// }
+// function reversedString(str){
+//     let newstring="";
+//     for (let i = str.length -1;i>=0 ; i--){
+//         newstring+=str[i];
+     
+//     }
+//     return newstring
+// }
+
+
+
+// Arrays examples
+
+// let fruits =["apple","pineapple","apricot","banana","pear","grape"]
+
+// // with forEach
+// fruits.forEach(function (fruit) {
+//     console.log(fruit);
+// })
+
+// // with for
+// for(let i=0;i<fruits.length;i++){
+//     console.log(fruits[i]);
+// }
+
+// // with while
+// let i=0;
+// while (i<fruits.length) {
+//     console.log(fruits[i]);
+//     i++;
+    
+// }
+
