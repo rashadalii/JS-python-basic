@@ -1,4 +1,4 @@
-// Task-01
+// // Task-01
 
 // let number = +prompt("Enter a two-digit number:");
 
@@ -9,7 +9,7 @@
 
 // console.log("The final three-digit number is: " + number);
 
-// task-02
+// // task-02
 
 // let N =prompt("eded daxil edin");
 
@@ -22,7 +22,7 @@
 
 
 
-// task-03
+// // task-03
 
 // let i=100;
 
@@ -64,18 +64,21 @@
 // task-06
 
 // let n =+prompt("eded daxil edin")
-// while (n >= 1) {
+// for (let i=n; n>= 1;n--) {
 //   let sadedir = true;
-//   for (let i = 2; i < n; i++) {
-//     if (n % i === 0) {
-//       sadedir = false;
-//       break;
+//   let i=2
+//   while(i<n){
+//     if (n % i === 0){
+//         sadedir=false;
+//         break;
 //     }
-//   }
-//   if (sadedir) {
+//     i++
+    
+// }
+// if (sadedir) {
 //     console.log(n);
 //   }
-//   n--;
+ 
 // }
 
 
