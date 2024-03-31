@@ -211,4 +211,63 @@
   
   
 //   console.log(numCounter("15263538479359486()-=':;!@#$%^&*()REGEX()")); 
-  
+
+
+
+
+
+// let name = "radar";
+// let result = reversedString(name);
+
+// console.log(result);
+
+// if (result === name) {
+//     console.log("name is a palindrome");
+// }
+
+// function reversedString(str) {
+//     let newstring = "";
+//     for (let i = str.length - 1; i >= 0; i--) {
+//         newstring += str[i];
+//     }
+//     return newstring;
+// }
+
+
+// let users = "Leyla,Siyare,Rashad,Kerim,Famil";
+// let userList = [];
+// let currentName = "";
+
+// for (let i = 0; i < users.length; i++) {
+//   if (users[i] === ",") {
+//     userList.push(currentName);
+//     currentName = "";
+//   } else {
+//     currentName += users[i];
+//   }
+// }
+
+
+// userList.push(currentName);
+
+// console.log(userList);
+
+
+
+// let users = "Leyla,Siyare,Rashad,Kerim,Famil";
+// let currentName = "";
+
+// for (let i = 0; i < users.length; i++) {
+//   if (users[i] === ",") {
+//     console.log(currentName);
+//     currentName = "";
+//   }  else {
+//     currentName += users[i];
+//   }
+// }
+
+
+// console.log(currentName);
+
+
+

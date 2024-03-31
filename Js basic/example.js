@@ -244,3 +244,39 @@
     
 // }
 
+// Closure example
+
+// function outerFunction() {
+//     let outerVariable = 'I am from the outer function';
+  
+//     function innerFunction() {
+//       console.log(outerVariable); // innerFunction has access to outerVariable
+//     }
+  
+//     return innerFunction; // return the inner function
+//   }
+  
+//   let innerFunc = outerFunction();
+//   innerFunc(); // this will log 'I am from the outer function' to the console
+  
+
+
+
+  // Callback example
+
+  // function getName(callback) {
+//     setTimeout(() => {
+//         let name="Jake"; // web serverden aldi
+//         callback(name);
+//     }, 1000);
+// }
+
+// function getSurname(name) {
+//     setTimeout(() => {
+//         let surname = "Paul"; // web serverden aldi
+//         console.log(name,surname);
+//     }, 500);
+// }
+
+// getName(getSurname)
+
