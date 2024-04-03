@@ -287,33 +287,33 @@
 // getName(getSurname)
 
 
-function getQuarterSalary(salaries, quarterNumber) {
-    let startIndex = (quarterNumber - 1) * 3;
-    let endIndex = startIndex + 3;
-    let total = 0;
-    for (let i = 0; i < salaries.length; i++) {
-      for (let j = startIndex; j < endIndex; j++) {
-        total += salaries[i][j];
-      }
-    }
-    return total;
-  }
+// function getQuarterSalary(salaries, quarterNumber) {
+//     let startIndex = (quarterNumber - 1) * 3;
+//     let endIndex = startIndex + 3;
+//     let total = 0;
+//     for (let i = 0; i < salaries.length; i++) {
+//       for (let j = startIndex; j < endIndex; j++) {
+//         total += salaries[i][j];
+//       }
+//     }
+//     return total;
+//   }
   
-  // Example usage
-  let salaries = [
-    [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
-    [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75], 
-    [150, 150, 150, 150, 150, 150,150, 150, 150, 150, 150, 180],
-    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
-    [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
-    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
-    [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
-    [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
-    [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
-    [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]
- ]
-  let quarterNumber = 1;
-  let totalForQuarter1 = getQuarterSalary(salaries, quarterNumber);
-  console.log("Total salary for quarter 1:", totalForQuarter1);
+//   // Example usage
+//   let salaries = [
+//     [60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60],
+//     [75, 75, 75, 75, 75, 75, 70, 77, 75, 75, 70, 75], 
+//     [150, 150, 150, 150, 150, 150,150, 150, 150, 150, 150, 180],
+//     [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
+//     [80, 80, 80, 80, 80, 80, 80, 105, 105, 105, 105, 105],
+//     [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
+//     [80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 120],
+//     [65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65, 65], 
+//     [80, 80, 80, 80, 80, 80, 80, 90, 90, 90, 90, 90],
+//     [75, 75, 75, 75, 75, 75, 75, 75, 75, 75, 70, 75]
+//  ]
+//   let quarterNumber = 1;
+//   let totalForQuarter1 = getQuarterSalary(salaries, quarterNumber);
+//   console.log("Total salary for quarter 1:", totalForQuarter1);
   
 

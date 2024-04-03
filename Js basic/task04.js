@@ -103,4 +103,39 @@
 // console.log(modifiedText);
 
 
+
+
+// binary-search example
+
+// function binarySearch(arr, target) {
+//     let left = 0;
+//     let right = arr.length - 1;
+  
+//     while (left <= right) {
+//       let mid = Math.floor((left + right) / 2);
+//       if (arr[mid] === target) {
+//         return mid; // Element found
+//       } else if (arr[mid] < target) {
+//         left = mid + 1; // Continue searching to the right
+//       } else {
+//         right = mid - 1; // Continue searching to the left
+//       }
+//     }
+  
+//     return -1; // Element not found
+//   }
+  
+//   // Create an array from 1 to 100
+//   let arr = [];
+//   for (let i = 1; i <= 100; i++) {
+//     arr.push(i);
+//   }
+  
+//   let targetNumber = 42; // Number to search for
+//   let resultIndex = binarySearch(arr, targetNumber);
+//   if (resultIndex !== -1) {
+//     console.log(`The number ${targetNumber} is found at index ${resultIndex}.`);
+//   } else {
+//     console.log(`The number ${targetNumber} is not found.`);
+//   }
   
