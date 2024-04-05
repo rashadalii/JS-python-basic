@@ -31,8 +31,6 @@
 
 // // Find the maximum value using the spread operator with Math.max
 // let maxNumber = Math.max(...numbers);
-
-// // Output the maximum value to the console
 // console.log("The maximum value is:", maxNumber);
 
 // task04
@@ -237,7 +235,7 @@
 //     return prices.map(price => price * (1 + EDV_RATE));
 //   }
   
-//   // Test the function with an array of prices excluding EDV
+
 //   let pricesExcludingEDV = [100, 50, 75, 120, 200];
 //   let pricesIncludingEDV = addTax(pricesExcludingEDV);
 //   console.log("Prices including EDV:", pricesIncludingEDV);
@@ -286,7 +284,7 @@
 //     arr.push(i);
 //   }
   
-//   let targetNumber = 76; // Number to search for
+//   let targetNumber = 56; // Number to search for
 //   let resultIndex = binarySearch(arr, targetNumber);
 //   if (resultIndex !== -1) {
 //     console.log(`The number ${targetNumber} is found at index ${resultIndex}.`);
@@ -294,5 +292,6 @@
 //     console.log(`The number ${targetNumber} is not found.`);
 //   }
   
-  
+
+
 
